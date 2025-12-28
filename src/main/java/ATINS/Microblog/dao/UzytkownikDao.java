@@ -1,5 +1,6 @@
 package ATINS.Microblog.dao;
 
+import ATINS.Microblog.model.User;
 import java.util.Optional;
 
 public interface UzytkownikDao {

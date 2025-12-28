@@ -1,5 +1,6 @@
 package ATINS.Microblog.dao;
 
+import ATINS.Microblog.model.Post;
 import java.util.List;
 
 public interface WiadomoscDao {
