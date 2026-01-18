@@ -12,6 +12,9 @@ public class WiadomoscDaoImpl implements WiadomoscDao {
 
     @PersistenceContext
     private EntityManager entityManager;
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
 
     @Override
     public List<Post> findAllByUserId(long userId) {

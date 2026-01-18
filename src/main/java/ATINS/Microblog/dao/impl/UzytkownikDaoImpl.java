@@ -12,6 +12,9 @@ public class UzytkownikDaoImpl implements UzytkownikDao {
 
     @PersistenceContext
     private EntityManager entityManager;
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
 
     @Override
     public Optional<User> findByUsername(String username) {

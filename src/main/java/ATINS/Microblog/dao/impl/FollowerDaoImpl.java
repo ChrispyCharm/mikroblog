@@ -12,6 +12,10 @@ public class FollowerDaoImpl implements FollowerDao {
 
     @PersistenceContext
     private EntityManager entityManager;
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
+
 
     @Override
     public void follow(long followerId, long followedId) {
